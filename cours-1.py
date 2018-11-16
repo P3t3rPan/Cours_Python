@@ -122,3 +122,4 @@ ma_liste.remove("cool") #On  retire de la liste "cool", ma_liste = ["blabla"]
 print(ma_liste)
 
 #D'autres choses possibles sur les listes, chaines de caractères etc : http://apprendre-python.com/page-apprendre-listes-list-tableaux-tableaux-liste-array-python-cours-debutant
+os.system("pause")
