@@ -17,7 +17,7 @@ print("La valeur entrée est: "+valeur_demandee)
 print('La valeur entrée est:',valeur_demandee)
 print("""La valeur entrée est: {}""".format(valeur_demandee))
 
-time.sleep(2) #On fait une pause de 0.5 secs avant la suite des instructions
+time.sleep(2) #On fait une pause de 2 secs avant la suite des instructions
 
 #La dernière syntaxe est utile quand on a plusieurs variables à afficher dans un print à l'intérieur d'un texte ex:
 print("\n### Syntaxe utile quand beaucoup de variable ###")
@@ -34,7 +34,7 @@ print("\n### Afficher une variable int ###")
 variable_int = 23
 print(variable_int) #OK
 
-time.sleep(2) #On fait une pause de 0.5 secs avant la suite des instructions
+time.sleep(2) #On fait une pause de 2 secs avant la suite des instructions
 
 #Mais avec du texte :
 print("\n### Afficher une variable int dans du texte ###")
@@ -49,7 +49,7 @@ print("Ma variable int vaut: "+str(variable_int))
 #While et If:
 ##
 
-time.sleep(2) #On fait une pause de 0.5 secs avant la suite des instructions
+time.sleep(2) #On fait une pause de 2 secs avant la suite des instructions
 
 print("\n### Exemple While et If ###")
 ok = False #variable de type booléen
@@ -104,7 +104,7 @@ for blabla in liste: #blabla va prendre comme valeur chaque élément de la list
 ##################################
 #permet de stocker des chiffres/mots/d'autres listes etc que vous pouvez ensuite récupérer :)
 
-time.sleep(2) #On fait une pause de 0.5 secs avant la suite des instructions
+time.sleep(2) #On fait une pause de 2 secs avant la suite des instructions
 
 print("\n### Les listes ###")
 ma_liste = [] #Définition d'une liste vide
@@ -114,7 +114,7 @@ ma_liste.append("blabla") #ajout de blabla à la liste, la liste ressemble déso
 ma_liste.append("cool") #ajout de cool à la liste, la liste ressemble désormais à : ma_liste = ["cc", "blabla", "cool"]
 print(ma_liste)
 
-time.sleep(2) #On fait une pause de 0.5 secs avant la suite des instructions
+time.sleep(2) #On fait une pause de 2 secs avant la suite des instructions
 
 print("Le premeir élément est: "+ma_liste[0])
 del ma_liste[0] #On retire le premeir élément de la liste, ma_liste = ["blabla", "cool"]
