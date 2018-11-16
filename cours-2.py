@@ -11,6 +11,7 @@ import os #importe toutes les fonctions contenues dans os
 
 import time #Import du package time pour pouvoir faire des pauses
 
+#Pour installer des packages, utiliser le gestionnaire de paquets pip : https://pypi.org/project/pip/
 
 ##################################
 #Les tuples
