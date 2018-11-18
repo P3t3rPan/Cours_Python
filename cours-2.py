@@ -1,7 +1,7 @@
 # -*-coding:UTF-8 -*
 
 ##################################
-#Les package
+#Les packages
 ##################################
 
 #Pour importer un package il suffit d'utiliser le mot clé "import" suivi du nom du package
