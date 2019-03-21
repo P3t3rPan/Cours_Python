@@ -115,7 +115,6 @@ ma_liste.append("cool") #ajout de cool à la liste, la liste ressemble désormai
 print(ma_liste)
 
 time.sleep(2) #On fait une pause de 2 secs avant la suite des instructions
-
 print("Le premeir élément est: "+ma_liste[0])
 del ma_liste[0] #On retire le premeir élément de la liste, ma_liste = ["blabla", "cool"]
 ma_liste.remove("cool") #On  retire de la liste "cool", ma_liste = ["blabla"]
